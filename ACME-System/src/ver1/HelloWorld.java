@@ -6,6 +6,11 @@ public class HelloWorld {
 		String Msg = "Hey Now!";
 		System.out.println(Msg);
 	}
+	
+	public static String whatFor(String arg) {
+		String Msg = arg + ", what for?";
+		return Msg;
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Hello from Eclipse");
